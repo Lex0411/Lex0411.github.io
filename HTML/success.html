@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Author info -->
+    <meta name="author" content="Daniel Githiomi">
+    <meta name="description" content="A Valentines Day Website">
+
+    <!-- Page Details -->
+    <title>That's what I thought</title>
+    <link type="image/icon-x" rel="icon" href="./../Assets/hearts.png">
+    <link rel="stylesheet" href="./../CSS/styles.css">
+</head>
+
+<body class="dark-mode">
+
+    <div class="overlay">
+        <!-- Overlay Goes Here -->
+    </div>
+
+    <main>
+        <div class="name">
+            YAAYY!
+        </div>
+
+        <div class="question">
+            I knew you'd say yes
+        </div>
+
+        <div class="gif">
+            <img src="./../Assets/dance.gif" alt="Question GIF">
+        </div>
+
+        <div class="buttons">
+            <button id="same">No shit</button>
+        </div>
+
+    </main>
+
+    <!-- SCRIPTS -->
+    <script defer>
+        // Can't wait button
+        const wait = document.getElementById("same").addEventListener("click", (e) => {
+            alert("Yeah I know I know. \nI'm not letting you say no ❤️!");
+
+            window.location.href = './letter.html';
+        });
+    </script>
+
+</body>
+
+</html>
